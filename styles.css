@@ -63,10 +63,13 @@ html{
     color: whitesmoke;
     border-radius: 50%;
     cursor: pointer;
+    visibility: visible;
   }
-  .name:hover{
+  /* .name:hover{
       box-shadow: 0px 0px 100px lightblue;
-  }
+  } */
+ 
+  
 
   .app-bar{
     border-radius: 50%;
@@ -79,6 +82,20 @@ html{
 
   }
   .app-bar:hover{
+    visibility: visible;
+  }
+
+  .nameContainer{
+    border-radius: 50%;
+    background-color: rgb(235, 234, 234);
+    padding: .25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+  }
+  .nameContainer:hover{
     visibility: visible;
   }
 
@@ -103,7 +120,7 @@ html{
     background: transparent;
     border: 0;
     outline: none;
-    padding: 1rem 1rem;
+    padding: 1em 1em;
     font-size: 1.2rem;
 }
 #voice{
@@ -115,17 +132,29 @@ html{
 .searchAndLucky{
     display: flex;
     justify-content: center;
-    margin: 3rem;
+    margin: 2.5em;
     
 }
 .searchAndLucky a {
     background-color: rgb(249, 248, 248);
-    margin-right: 0.25rem;
-    padding: 0.75rem;
+    margin-right: 0.8em;
+    padding: 0.75em;
     text-decoration: none;
+    border-radius: .25em;
+    border: 0.1rem solid transparent;
     
 }
+
+.searchAndLucky a:hover{
+  border: 0.1em solid rgb(225, 225, 225);
+}
+
 .underlineText:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+#languages a{
+  color: blue;
+  margin-left: .25em;
 }
