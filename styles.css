@@ -1,0 +1,128 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  main{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+ img{
+    margin: 0 auto;
+    width: 272px;
+    height: 92px;
+ }
+
+ ul{
+    list-style-type: none;
+    
+ }
+ a{
+    text-decoration: none;
+ }
+ .nav-items{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+   
+   
+ }
+ .nav-items li{
+    margin-right: 1em;
+ }
+
+ .nav-items li:nth-child(1){
+    margin-left: auto;
+ }
+ .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48,
+    
+  }
+  .material-symbols-outlined{
+    
+    color: rgb(108, 108, 107);
+    cursor: pointer;
+    width: 100%;
+    visibility: visible;
+    
+  }
+  .name{
+    background-color:rgb(238, 0, 0);
+    padding: .5rem .65rem ;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .app-bar{
+    border-radius: 50%;
+    background-color: rgb(244, 244, 244);
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+  }
+  .app-bar:hover{
+    visibility: visible;
+  }
+
+ /* input[type=text] {
+
+    width: 80%;
+    border-radius: 5%;
+    border: 5px solid blue;
+  } */
+  .form{
+    border: 1px rgb(220, 220, 220) solid;
+    border-radius: 60px;
+    justify-content: center;
+    padding: 0px 20px;
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    align-items: center;
+  }
+.form input{
+    flex-grow: 1;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+}
+#voice{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.searchAndLucky{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    
+}
+.searchAndLucky a {
+    background-color: rgb(249, 248, 248);
+    margin-right: 0.25rem;
+    padding: 0.75rem;
+    text-decoration: none;
+    
+}
+.underlineText:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
