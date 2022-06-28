@@ -1,6 +1,8 @@
 html{
+    
     box-sizing: border-box;
 }
+
 
 *, *::before, *::after {
     padding: 0;
@@ -50,9 +52,9 @@ html{
   }
   .material-symbols-outlined{
     
-    color: rgb(108, 108, 107);
+    color: rgb(95,99,104);
     cursor: pointer;
-    width: 100%;
+    
     visibility: visible;
     
   }
@@ -108,11 +110,12 @@ html{
   .form{
     border: 1px rgb(220, 220, 220) solid;
     border-radius: 60px;
-    justify-content: center;
+    
     padding: 0px 20px;
     display: flex;
     width: 100%;
     max-width: 700px;
+    margin: 0 auto;
     align-items: center;
   }
 .form input{
@@ -120,7 +123,7 @@ html{
     background: transparent;
     border: 0;
     outline: none;
-    padding: 1em 1em;
+    padding: .5em 1em;
     font-size: 1.2rem;
 }
 #voice{
@@ -146,7 +149,7 @@ html{
 }
 
 .searchAndLucky a:hover{
-  border: 0.1em solid rgb(225, 225, 225);
+  border: 0.1em solid rgb(248,249,250);
 }
 
 .underlineText:hover{
@@ -154,7 +157,37 @@ html{
     cursor: pointer;
 }
 
+footer{
+width: 100%;
+background-color: rgb(242,242,242);
+
+}
+#country{
+  padding: 1.25em;
+  border-bottom: 1px solid rgb(218,220,224);
+}
+#languages{
+  margin-bottom: 2em;
+}
 #languages a{
-  color: blue;
+  color: rgb(26,13,179);
   margin-left: .25em;
 }
+#lastFooter{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding:1em ;
+}
+#lastFooter li:nth-of-type(6){
+  margin-left: auto;
+}
+/* #lastFooter li:nth-of-type(1){
+  margin-left: .75em;
+} */
+/* #lastFooter li{
+  margin-right: 2em;
+} */
+/* #carbon{
+  margin-left: 9em;
+} */
