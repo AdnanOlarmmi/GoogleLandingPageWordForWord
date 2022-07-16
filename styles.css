@@ -177,7 +177,7 @@ main{
 footer{
 flex-grow: 1;
 background-color: rgb(242,242,242);
-height: fit-content;
+
 }
 #country{
   padding: 1.25em;
