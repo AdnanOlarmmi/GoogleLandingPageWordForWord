@@ -1,4 +1,4 @@
 # GoogleLandingPageWordForWord
 This is a development of what you'll find on google.com exactly, word for word... Not too much but it's honest work.
 
-[Here]() is the preview.
+[Here](https://adnanolarmmi.github.io/GoogleLandingPageWordForWord/) is the preview.
